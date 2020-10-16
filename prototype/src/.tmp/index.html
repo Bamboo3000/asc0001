@@ -1,0 +1,1050 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="./node_modules/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="./node_modules/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="./node_modules/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="./node_modules/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="./node_modules/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="./node_modules/quill/dist/quill.core.css" />
+
+    <!-- Map -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Theme CSS -->
+    <!-- build:css ./assets/css/theme.min.css -->
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <!-- endbuild -->
+
+    <title>All Sport Cars</title>
+
+  </head>
+  <body>
+
+  <!-- MODALS
+    ================================================== -->
+    <!-- Example -->
+    <div class="modal fade" id="modalExample" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+
+            <!-- Image -->
+            <div class="text-center">
+              <img src="./assets/img/illustrations/illustration-1.png" alt="..." class="img-fluid mb-3" style="width: 200px;">
+            </div>
+
+            <!-- Heading -->
+            <h2 class="font-weight-bold text-center mb-1" id="modalExampleTitle">
+              Schedule a demo with us
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-center text-muted mb-6 mb-md-8">
+              We can help you solve company communication.
+            </p>
+
+            <!-- Form -->
+            <form>
+              <div class="row">
+                <div class="col-12 col-md-6">
+
+                  <!-- First name -->
+                  <div class="form-label-group">
+                    <input type="text" class="form-control form-control-flush" id="registrationFirstNameModal" placeholder="First name">
+                    <label for="registrationFirstNameModal">First name</label>
+                  </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+
+                  <!-- Last name -->
+                  <div class="form-label-group">
+                    <input type="text" class="form-control form-control-flush" id="registrationLastNameModal" placeholder="Last name">
+                    <label for="registrationLastNameModal">Last name</label>
+                  </div>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+
+                  <!-- Email -->
+                  <div class="form-label-group">
+                    <input type="email" class="form-control form-control-flush" id="registrationEmailModal" placeholder="Email">
+                    <label for="registrationEmailModal">Email</label>
+                  </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+
+                  <!-- Password -->
+                  <div class="form-label-group">
+                    <input type="password" class="form-control form-control-flush" id="registrationPasswordModal" placeholder="Password">
+                    <label for="registrationPasswordModal">Password</label>
+                  </div>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+
+                  <!-- Submit -->
+                  <button class="btn btn-block btn-primary mt-3 lift">
+                    Request a demo
+                  </button>
+
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signup: Horizontal  -->
+    <div class="modal fade" id="modalSignupHorizontal" tabindex="-1" role="dialog" aria-labelledby="modalSignupHorizontalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card card-row">
+            <div class="row no-gutters">
+              <div class="col-12 col-md-6 bg-cover card-img-left" style="background-image: url(./assets/img/photos/photo-8.jpg);">
+
+                <!-- Image (placeholder) -->
+                <img src="./assets/img/photos/photo-8.jpg" alt="..." class="img-fluid d-md-none invisible">
+
+                <!-- Shape -->
+                <div class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block">
+                  <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M116 0H51v172C76 384 0 517 0 517v173h116V0z" fill="currentColor"/></svg>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-body">
+
+                  <!-- Close -->
+                  <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+
+                  <!-- Heading -->
+                  <h2 class="mb-0 font-weight-bold text-center" id="modalSignupHorizontalTitle">
+                    Sign Up
+                  </h2>
+
+                  <!-- Text -->
+                  <p class="mb-6 text-center text-muted">
+                    Simplify your workflow in minutes.
+                  </p>
+
+                  <!-- Form -->
+                  <form class="mb-6">
+
+                    <!-- Email -->
+                    <div class="form-group">
+                      <label class="sr-only" for="modalSignupHorizontalEmail">
+                        Your email
+                      </label>
+                      <input type="email" class="form-control" id="modalSignupHorizontalEmail" placeholder="Your email">
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group mb-5">
+                      <label class="sr-only" for="modalSignupHorizontalPassword">
+                        Create a password
+                      </label>
+                      <input type="password" class="form-control" id="modalSignupHorizontalPassword" placeholder="Create a password">
+                    </div>
+
+                    <!-- Submit -->
+                    <button class="btn btn-block btn-primary" type="submit">
+                      Sign up
+                    </button>
+
+                  </form>
+
+                  <!-- Text -->
+                  <p class="mb-0 font-size-sm text-center text-muted">
+                    Already have an account? <a href="./signin-illustration.html">Log in</a>.
+                  </p>
+
+                </div>
+              </div>
+
+            </div> <!-- / .row -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signup: Vertical  -->
+    <div class="modal fade" id="modalSignupVertical" tabindex="-1" role="dialog" aria-labelledby="modalSignupVerticalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card">
+
+            <!-- Close -->
+            <button type="button" class="modal-close close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+
+            <!-- Image -->
+            <img src="./assets/img/photos/photo-7.jpg" alt="..." class="card-img-top">
+
+            <!-- Shape -->
+            <div class="position-relative">
+              <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+              </div>
+            </div>
+
+            <!-- Body -->
+            <div class="card-body">
+
+              <!-- Heading -->
+              <h2 class="mb-0 font-weight-bold text-center" id="modalSignupVerticalTitle">
+                Sign Up
+              </h2>
+
+              <!-- Text -->
+              <p class="mb-6 text-center text-muted">
+                Simplify your workflow in minutes.
+              </p>
+
+              <!-- Form -->
+              <form class="mb-6">
+
+                <!-- Email -->
+                <div class="form-group">
+                  <label class="sr-only" for="modalSignupVerticalEmail">
+                    Your email
+                  </label>
+                  <input type="email" class="form-control" id="modalSignupVerticalEmail" placeholder="Your email">
+                </div>
+
+                <!-- Password -->
+                <div class="form-group mb-5">
+                  <label class="sr-only" for="modalSignupVerticalPassword">
+                    Create a password
+                  </label>
+                  <input type="password" class="form-control" id="modalSignupVerticalPassword" placeholder="Create a password">
+                </div>
+
+                <!-- Submit -->
+                <button class="btn btn-block btn-primary" type="submit">
+                  Sign up
+                </button>
+
+              </form>
+
+              <!-- Text -->
+              <p class="mb-0 font-size-sm text-center text-muted">
+                Already have an account? <a href="./signin-illustration.html">Log in</a>.
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signin: Horizontal  -->
+    <div class="modal fade" id="modalSigninHorizontal" tabindex="-1" role="dialog" aria-labelledby="modalSigninHorizontalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card card-row">
+            <div class="row no-gutters">
+              <div class="col-12 col-md-6 bg-cover card-img-left" style="background-image: url(./assets/img/photos/photo-1.jpg);">
+
+                <!-- Image (placeholder) -->
+                <img src="./assets/img/photos/photo-1.jpg" alt="..." class="img-fluid d-md-none invisible">
+
+                <!-- Shape -->
+                <div class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block">
+                  <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M116 0H51v172C76 384 0 517 0 517v173h116V0z" fill="currentColor"/></svg>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-body">
+
+                  <!-- Close -->
+                  <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+
+                  <!-- Heading -->
+                  <h2 class="mb-0 font-weight-bold text-center" id="modalSigninHorizontalTitle">
+                    Sign In
+                  </h2>
+
+                  <!-- Text -->
+                  <p class="mb-6 text-center text-muted">
+                    Simplify your workflow in minutes.
+                  </p>
+
+                  <!-- Form -->
+                  <form class="mb-6">
+
+                    <!-- Email -->
+                    <div class="form-group">
+                      <label class="sr-only" for="modalSigninHorizontalEmail">
+                        Your email
+                      </label>
+                      <input type="email" class="form-control" id="modalSigninHorizontalEmail" placeholder="Your email">
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group mb-5">
+                      <label class="sr-only" for="modalSigninHorizontalPassword">
+                        Enter your password
+                      </label>
+                      <input type="password" class="form-control" id="modalSigninHorizontalPassword" placeholder="Enter your password">
+                    </div>
+
+                    <!-- Submit -->
+                    <button class="btn btn-block btn-primary" type="submit">
+                      Sign in
+                    </button>
+
+                  </form>
+
+                  <!-- Text -->
+                  <p class="mb-0 font-size-sm text-center text-muted">
+                    Don't have an account yet? <a href="./signin-illustration.html">Sign up</a>.
+                  </p>
+
+                </div>
+              </div>
+
+            </div> <!-- / .row -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signup: Vertical  -->
+    <div class="modal fade" id="modalSigninVertical" tabindex="-1" role="dialog" aria-labelledby="modalSigninVerticalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card">
+
+            <!-- Close -->
+            <button type="button" class="modal-close close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+
+            <!-- Image -->
+            <img src="./assets/img/photos/photo-21.jpg" alt="..." class="card-img-top">
+
+            <!-- Shape -->
+            <div class="position-relative">
+              <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+              </div>
+            </div>
+
+            <!-- Body -->
+            <div class="card-body">
+
+              <!-- Heading -->
+              <h2 class="mb-0 font-weight-bold text-center" id="modalSigninVerticalTitle">
+                Sign In
+              </h2>
+
+              <!-- Text -->
+              <p class="mb-6 text-center text-muted">
+                Simplify your workflow in minutes.
+              </p>
+
+              <!-- Form -->
+              <form class="mb-6">
+
+                <!-- Email -->
+                <div class="form-group">
+                  <label class="sr-only" for="modalSigninVerticalEmail">
+                    Your email
+                  </label>
+                  <input type="email" class="form-control" id="modalSigninVerticalEmail" placeholder="Your email">
+                </div>
+
+                <!-- Password -->
+                <div class="form-group mb-5">
+                  <label class="sr-only" for="modalSigninVerticalPassword">
+                    Enter your password
+                  </label>
+                  <input type="password" class="form-control" id="modalSigninVerticalPassword" placeholder="Enter your password">
+                </div>
+
+                <!-- Submit -->
+                <button class="btn btn-block btn-primary" type="submit">
+                  Sign in
+                </button>
+
+              </form>
+
+              <!-- Text -->
+              <p class="mb-0 font-size-sm text-center text-muted">
+                Don't have an account yet? <a href="./signin-illustration.html">Sign up</a>.
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Example -->
+    <div class="modal fade" id="modalPayment" tabindex="-1" role="dialog" aria-labelledby="modalPaymentTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+
+            <!-- Heading -->
+            <h2 class="font-weight-bold text-center mb-1" id="modalPaymentTitle">
+              Add Payment
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-center text-muted mb-6 mb-md-8">
+              Simplify your workflow in minutes.
+            </p>
+
+            <!-- Form -->
+            <form>
+
+              <!-- Name -->
+              <div class="form-group">
+                <label for="modalPaymentName">Name on card</label>
+                <input class="form-control" id="modalPaymentName" type="text" placeholder="First Last">
+              </div>
+
+              <!-- Name -->
+              <div class="form-group">
+                <label for="modalPaymentNumbber">Card number</label>
+                <input class="form-control" id="modalPaymentNumbber" type="number" placeholder="4242 4242 4242 4242">
+              </div>
+
+              <!-- Name -->
+              <div class="form-group">
+                <label for="modalPaymentDate">Exp. Date</label>
+                <input class="form-control" id="modalPaymentDate" type="text" placeholder="03/2023">
+              </div>
+
+              <!-- Submit -->
+              <button class="btn btn-block btn-primary mt-3 lift">
+                Add Payment Method
+              </button>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+     <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-togglable fixed-top navbar-light bg-white border-bottom">
+      <div class="container">
+
+     <!-- Brand -->
+        <a class="navbar-brand" >
+          <img src="./assets/img/logo.svg" class="navbar-brand-img" alt="...">
+        </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse position-absolute right-0" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#sectionMoreInfo1"> 1 sekcja<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectionMoreInfo2">2 sekcja</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectionMoreInfo3">3 sekcja</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#sectionMoreInfo4">4 sekcja</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#sectionMoreInfo5">5 sekcja</a>
+              </li>
+              <a class="navbar-btn btn btn-sm btn-danger lift ml-auto" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
+                INWESTUJ!
+              </a>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="pt-12 pb-12 pt-md-25 pb-md-14 overlay overlay-black overlay-60" style="background-image: url(assets/img/illustrations/header2.png)">
+      <div class="container">
+        <div class="row  justify-content-left">
+          <div class="col-12 col-md-8 col-lg-6 mt-10">
+
+            <!-- Heading -->
+            <h1 data-jarallax-element="-40" class="titlesAllSportCars font-weight-bold text-white text-left  pl-2" id="welcomeHeadingSource">
+             All Sport Cars to nowa innowacyjna platforma do wynajmu aut sportowych. 
+            </h1>
+           
+            <a class="titlesAllSportCars btn btn-danger ml-2 " disabled data-toggle="smooth-scroll" href="#SectionMoreInfo1">
+              Dowiedz się więcej!
+            </a>
+            
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+     <!-- VIDEO
+    ================================================== -->
+    <section class="py-8 py-md-9 mb-10 border-bottom"  >
+      <div class="container">
+        <div class="row justify-content-center"  >
+         <!-- Headin -->
+            <h1 class="titlesAllSportCars display-4 font-weight-bold text-center" data-aos="fade-up" data-aos-delay="50">
+             Całkowicie zmieniamy pogląd na wynajem samochodów! 
+            </h1>
+          <div class="row text-left" id="SectionMoreInfo1">
+
+            <!-- Text -->
+            
+              <div class="col-12">
+                <p class="otherTextAllSportCars text-align-center  text-lift mb-6 ml-6" data-aos="fade-up" data-aos-delay="100">
+                  W Polsce jak i na całym świecie wynajem aut jest jednym z usług, które rozwijają się niesamowicie szybko. Rynek wynajmu to już nie tylko auta na potrzeby wesel, filmów, teledysków czy reklam. 
+                  Dzięki coraz lepszym warunkom, z tego rodzaju usług w znacznym stopniu zaczęły korzystać osoby prywatne - miłośnicy motoryzacji oraz ci, którzy chcą przeżyć prawdziwą przygodę i poczuć adrenalinę!
+                </p>
+              </div>
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- Video -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <video class="embed-responsive-item rounded-lg bg-light shadow-lg" src="assets/video/videoplayback.mp4" autoplay loop muted>
+                Sorry, your browser doesn't support embedded videos,
+                but don't worry, you can <a href="assets/video/video-1.mp4">download it</a>
+                and watch it with your favorite video player!
+              </video>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+   <div class="position-relative mt-n12 mt-md-n15">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-black">
+        <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M720 125L2160 0h720v250H0V125h720z" fill="currentColor"/></svg>
+      </div>
+    </div>
+
+    <!-- LATEST POSTS
+    ================================================== -->
+   
+
+    <section  data-jarallax data-speed=".8" class="col-12 py-4 pt-13 bg-black"  id="SectionMoreInfo2"> 
+      
+        <div class="row text-align-center pl-15 pr-15 pb-15" data-aos="fade-up" data-aos-delay="100">
+          
+            <!-- Body -->
+            <h1 class=" titlesAllSportCars text-white pl-15 "> TYTUŁ SEKCJI 3 </h1>
+                <!-- Text -->
+                <p class="otherTextAllSportCars mb-5 mb-md-7 text-white text-center ">
+                  Ten młody dynamiczny rynek przyciąga coraz większą ilość inwestorów dostrzegających ogromny potencjał  rozwoju i zwrotu z inwestycji.
+                  Jaki jest największy problem, z którym mierzy się ten rynek?
+                  Aby wynająć wymarzone auto trzeba przebijać się godzinami po stronach wypożyczalni z różnych części kraju, porównując oferty, cenniki itd. 
+                  Klienci często rezygnują, lub wybierają auto bez poczucia, że to jest właśnie ich wymarzone auto i idealna oferta !
+                </p>
+                <!-- Footer -->
+                
+                  <p class="otherTextAllSportCars text-uppercase text-center">All Sport Cars rozwiązuje ten problem!</p>
+              <div class="ctaButtonSection4  mt-5">
+                <a class="titlesAllSportCars btn btn-lg btn-danger shadow lift " disabled data-toggle="smooth-scroll" href="#SectionMoreInfo3">
+                  Zobacz jak!
+                </a>
+              </div>
+             
+          
+        
+        </div>
+    </section>
+
+
+
+    <!-- PLACEMENT RATES
+    ================================================== -->
+    <section id="SectionMoreInfo3">
+      <div class="container py-8 pt-md-8 pb-md-9">
+        <div class="row align-items-center " >
+          <div class="col-10 col-md-6">
+
+            <!-- Heading -->
+            <h3 class="otherTextAllSportCars mb-6 mb-md-8">
+              Będzie  to platforma, na której w łatwy sposób klienci mogą sprawdzić oferty wielu różnych  wypożyczalni, porównać ich ceny, dostępność samochodu w wybranym terminie- wybierając idealne auto! 
+            </h3>
+            <h3 class="otherTextAllSportCars mb-6 mb-md-8">
+              Dzięki systemowi łączącemu z wypożyczalniami klient od razu po wybraniu  może dokonać rezerwacji i płatności online. 
+              wypożyczalnie zyskują system do zarządzania rezerwacjami samochodów oraz źródło dodatkowych klientów wyszukujących auta na platformie. 
+            </h3>
+
+          </div class="col-2">
+          <div class="ctaButtonSection4">
+            <a class="titlesAllSportCars btn btn-lg btn-danger " disabled data-toggle="smooth-scroll" href="#SectionMoreInfo4">
+              Zobacz jak!
+            </a>
+          </div> <!--CTA BUTTON-->
+          
+        </div> <!-- / .row -->
+         
+      </div> <!-- / .container -->
+    </section>
+
+  
+
+    <!-- ABOUT
+    ================================================== -->
+    <section class="py-6 py-md-6 bg-light pb-8 pt-md-12 pb-md-9 overlay overlay-black overlay-90" id="SectionMoreInfo4" data-jarallax data-speed=".7" style="background-image: url(assets/img/illustrations/businessMeeting.jpg)">
+      <div class="container">
+        <div class="row">
+               <div class="col-6 text-white" >
+                  <!-- Heading -->
+                  <h1 class="titlesAllSportCars">
+                    Aby zdobyć kapitał na stworzenie All Sport Cars, powstała zbiórka na FUND IT- platformie do inwestowania w rozwojowe projekty.
+                  </h1>
+                  <div class="ctaButtonSection4">
+                    <a class=" titlesAllSportCars btn btn-lg btn-success " disabled data-toggle="smooth-scroll" href="#">
+                     Dowiedz się więcej od FUND IT!
+                    </a>
+                  </div> <!--CTA BUTTON-->
+
+                  <div class="ctaButtonSection4 mt-8">
+                    <a class=" titlesAllSportCars btn btn-lg btn-danger " disabled data-toggle="smooth-scroll" href="#SectionMoreInfo6">
+                      Zainwestuj i zarabiaj razem z nami!
+                    </a>
+                  </div> <!--CTA BUTTON-->
+                </div>
+                <div class="col-6 text-white" >
+             
+
+                <!-- List -->
+                <div class="otherTextAllSportCars d-flex lift lift-lg">
+
+                  <!-- Icon -->
+                  <div class="icon icon-lg ">
+                    <svg id="a17dd300-7621-4978-a344-c06233c14e82" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="887.87606" height="652.02406" viewBox="0 0 887.87606 652.02406"><title>success_factors</title><path d="M1043.93777,757.41073c-2.84541,25.87621-152.22584,23.704-151.99948-.00154C894.78367,731.53451,1044.1641,733.70675,1043.93777,757.41073Z" transform="translate(-156.06197 -123.98797)" fill="#e6e6e6"/><polygon points="785.259 567.02 779.204 580.14 768.102 579.131 761.038 555.918 772.139 549.863 785.259 567.02" fill="#ffb8b8"/><polygon points="823.372 597.237 823.611 606.38 806.454 607.39 806.454 596.288 823.372 597.237" fill="#ffb8b8"/><polygon points="817.555 430.772 813.518 511.511 823.611 599.316 793.333 603.353 774.158 492.336 768.102 416.642 817.555 430.772" fill="#2f2e41"/><path d="M1021.05174,525.49168s12.11093,79.7303-13.12018,105.97066-59.54542,72.66559-59.54542,72.66559L924.16428,673.8506l61.5639-65.60088L973.61725,563.843l-49.453-23.21262,8.074-55.50844,72.6656-1.00924Z" transform="translate(-156.06197 -123.98797)" fill="#2f2e41"/><circle cx="805.44435" cy="194.60862" r="22.20338" fill="#ffb8b8"/><path d="M980.682,323.64281s1.00925,31.28657,6.05547,35.32355-18.1664,21.19413-18.1664,21.19413l-15.13867-24.22186V333.73525Z" transform="translate(-156.06197 -123.98797)" fill="#ffb8b8"/><polygon points="814.528 242.043 826.781 223.541 833.703 232.96 843.796 261.219 835.722 371.226 788.287 372.236 782.232 246.08 797.37 227.914 814.528 242.043" fill="#d0cde1"/><path d="M919.11806,373.09578l-8.074-1.00924s-2.01849,1.00924-3.02773,8.07395-13.12018,69.63786-13.12018,69.63786l16.14791,76.70257,18.1664-24.22186L918.10881,459.8908l11.10169-42.38827Z" transform="translate(-156.06197 -123.98797)" fill="#2f2e41"/><polygon points="865.999 248.099 872.054 248.099 887.193 329.847 873.064 393.43 858.934 370.217 862.971 344.986 860.953 322.783 853.888 309.662 865.999 248.099" fill="#2f2e41"/><path d="M932.23823,700.091s6.05547-2.01849,6.05547,2.01849-4.037,16.14791-4.037,16.14791,6.05547,37.342-3.02773,35.32355-16.14791-19.17564-17.15716-24.22186-6.05546-31.28658-6.05546-31.28658-8.074-19.17564-3.02773-20.18488,19.17564-5.04622,19.17564-5.04622S916.09032,698.07246,932.23823,700.091Z" transform="translate(-156.06197 -123.98797)" fill="#2f2e41"/><path d="M961.50632,731.37753s16.14791-10.09245,19.17564-2.01849a84.80084,84.80084,0,0,1,4.037,18.1664s4.037,13.12017-12.11093,11.10169-14.12942-2.01849-15.13867-8.074S961.50632,731.37753,961.50632,731.37753Z" transform="translate(-156.06197 -123.98797)" fill="#2f2e41"/><path d="M974.6265,318.59659l-4.037-1.00925s-3.02773-17.15715-10.09244-15.13866-25.23111,4.037-25.23111-4.037,17.15715-15.13867,27.24959-14.12942,27.2496,4.037,26.24036,19.17564-7.52165,29.86536-7.52165,29.86536l-.52605-8.97562Z" transform="translate(-156.06197 -123.98797)" fill="#2f2e41"/><polygon points="797.37 254.154 814.528 242.043 797.37 227.914 791.414 235.062 797.37 254.154" fill="#d0cde1"/><polygon points="829.666 253.145 814.528 242.043 826.638 223.877 833.703 232.96 829.666 253.145" fill="#d0cde1"/><path d="M912.05335,372.08654l32.29582-13.12018,7.56933-5.55084,22.708,100.41981,15.13866-45.416-4.5416-58.03155,41.88364,21.69876-14.12942,68.62861-2.01849,26.24036,6.05547,21.19413s21.19413,15.13866,14.12942,31.28657-15.13867,17.15716-15.13867,17.15716-34.3143-32.29582-36.33279-40.36978-5.04622-22.20337-5.04622-22.20337-17.15716,64.59164-37.342,63.58239-20.18488-22.20337-20.18488-22.20337l5.04622-22.20338,8.07395-23.21262-4.037-38.35129Z" transform="translate(-156.06197 -123.98797)" fill="#2f2e41"/><rect x="0.30042" y="0.39886" width="703.57565" height="450.60114" fill="#e6e6e6"/><rect x="20.419" y="56.91548" width="663.33848" height="171.77293" fill="#fff"/><rect x="185.4182" y="81.72713" width="140.28123" height="8.05267" fill="#e6e6e6"/><rect x="185.4182" y="111.10108" width="216.62475" height="8.05267" fill="#6c63ff"/><rect x="185.4182" y="138.77561" width="176.5444" height="8.05267" fill="#e6e6e6"/><rect x="185.4182" y="166.34556" width="103.06376" height="8.05267" fill="#e6e6e6"/><rect x="185.4182" y="193.9155" width="155.54993" height="8.05267" fill="#e6e6e6"/><rect x="121.4805" y="78.86424" width="17.17729" height="17.17729" fill="#e6e6e6"/><rect x="121.4805" y="106.53877" width="17.17729" height="17.17729" fill="#6c63ff"/><rect x="121.4805" y="134.2133" width="17.17729" height="17.17729" fill="#e6e6e6"/><rect x="121.4805" y="161.88783" width="17.17729" height="17.17729" fill="#e6e6e6"/><rect x="121.4805" y="189.56235" width="17.17729" height="17.17729" fill="#e6e6e6"/><rect x="533.73553" y="117.9903" width="57.25764" height="57.25764" fill="#e6e6e6"/><rect x="20.419" y="252.54576" width="663.33848" height="171.77293" fill="#fff"/><rect x="151.06361" y="267.81206" width="17.17729" height="17.17729" fill="#e6e6e6"/><rect x="121.4805" y="267.81206" width="17.17729" height="17.17729" fill="#6c63ff"/><path d="M568.78582,429.36336a65.04552,65.04552,0,0,0-105.003-9.69993l-4.18616-3.65794a70.59376,70.59376,0,0,1,113.973,10.5262Z" transform="translate(-156.06197 -123.98797)" fill="#e6e6e6"/><path d="M571.40549,501.78181l-4.6134-3.102a65.07767,65.07767,0,0,0,1.99373-69.31643l4.78387-2.83167a70.63741,70.63741,0,0,1-2.1642,75.25012Z" transform="translate(-156.06197 -123.98797)" fill="#6c63ff"/><path d="M460.17592,509.52655a70.58952,70.58952,0,0,1-.57926-93.52106l4.18616,3.65794a65.03084,65.03084,0,0,0,.53365,86.15416Z" transform="translate(-156.06197 -123.98797)" fill="#6c63ff"/><path d="M512.776,533.04037a70.70886,70.70886,0,0,1-52.6-23.51382l4.14055-3.709a65.04336,65.04336,0,0,0,102.47562-7.1378l4.6134,3.102A70.5538,70.5538,0,0,1,512.776,533.04037Z" transform="translate(-156.06197 -123.98797)" fill="#6c63ff"/><rect x="533.73553" y="305.03194" width="57.25764" height="57.25764" fill="#e6e6e6"/><rect x="119.09476" y="342.2494" width="57.25764" height="57.25764" fill="#e6e6e6"/><rect width="703.57565" height="29.89047" fill="#6c63ff"/><circle cx="22.21219" cy="15.28159" r="5.53997" fill="#fff"/><circle cx="43.24053" cy="15.28159" r="5.53997" fill="#fff"/><circle cx="64.26886" cy="15.28159" r="5.53997" fill="#fff"/></svg>
+                  </div>
+
+                  <div class="ml-5">
+
+                    <!-- Heading -->
+                    <h4 class="mb-1 titlesAllSportCars">
+                    Inwestycja
+                    </h4>
+
+                    <!-- Text -->
+                    <p class="text-white mb-5 ">
+                  Inwestując w Allsportcars, użytkownik otrzymuje jednostki udziałowe uprawniające go do udziału w zysku jaki wypracuje spółka.                 </p>
+                    </p>
+
+                  </div>
+
+                </div>
+                <div class="otherTextAllSportCars d-flex lift lift-lg">
+
+                  <!-- Icon -->
+                  <div class="icon icon-lg ">
+                    <svg id="b37098a9-9602-4dae-9da7-bb336c014bf8" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="738.14347" height="708.72434" viewBox="0 0 738.14347 708.72434"><g id="a716a1f1-6b00-4465-bd1c-a2c028b5604e" data-name="Group 1"><path id="e54e6529-6084-4a1d-add3-90a4c5cc374f" data-name="Path 10" d="M890.94931,718.70684v13.288l11.073.738-.739-15.5Z" transform="translate(-230.92827 -95.63783)" fill="#feb9b9"/><path id="aa7fe956-15fa-49a3-841c-8afb545ad874" data-name="Path 11" d="M893.1633,724.61282l-7.382-1.476s-10.334,18.454-16.978,19.931c-5.813,1.292-19.539,5.975-14.472,12.565a7.276,7.276,0,0,0,6.411,2.681l31.683-2.7s12.549.738,12.549-6.644v-24.36Z" transform="translate(-230.92827 -95.63783)" fill="#2f2e41"/><path id="a7ac59d0-4c5e-451c-bf35-4efdeb5633c0" data-name="Path 12" d="M891.87326,649.92483l-3.18,72.076,20.139,5.3Z" transform="translate(-230.92827 -95.63783)" fill="#2f2e41"/><path id="a08adc14-3209-4395-823e-cebe9963673a" data-name="Path 13" d="M899.29227,747.43986v19.08l15.9,1.06-1.06-22.259Z" transform="translate(-230.92827 -95.63783)" fill="#feb9b9"/><path id="ed07c175-0c25-405a-a991-c8f0d9251695" data-name="Path 14" d="M866.43527,557.70982l8.479,12.719,19.079,114.474,3.18,68.9h31.8l-7.42-167.471s14.839-18.019,4.24-36.038Z" transform="translate(-230.92827 -95.63783)" fill="#2f2e41"/><path id="b2f37150-101e-4b97-a3bb-c9b520730644" data-name="Path 15" d="M902.47226,755.91882l-10.6-2.12s-14.839,26.5-24.379,28.618c-8.177,1.817-27.256,8.307-21.193,17.466a10.4,10.4,0,0,0,9.591,4.427l45.526-3.874s18.019,1.06,18.019-9.539v-34.978Z" transform="translate(-230.92827 -95.63783)" fill="#2f2e41"/><circle id="e8ae8751-5f15-4e1d-ab3e-c03bed5425dd" data-name="Ellipse 1" cx="672.60506" cy="294.60101" r="22.259" fill="#feb9b9"/><path id="a4692f39-5944-448e-9eb0-f63e3a7ffbbc" data-name="Path 16" d="M890.81327,401.89683v31.8c0,1.06,24.379-2.12,24.379-2.12s1.06-29.678,1.06-32.858Z" transform="translate(-230.92827 -95.63783)" fill="#feb9b9"/><path id="e4631c2d-bf0b-4189-a249-c10b314651dc" data-name="Path 17" d="M917.31229,415.67784s-13.779-3.18-38.158,12.719h-4.24l-1.06,24.379s-14.839,15.9-12.719,22.259c0,0-18.019,21.2-10.6,29.678,0,0-16.959,20.139-9.539,28.618,0,0-18.019,23.319-7.42,26.5,0,0,23.319,0,36.038,2.12s65.716-9.539,65.716-9.539,1.06-27.559,0-27.559h-1.06s4.24-25.439,2.12-26.5c0,0,1.06-28.618-2.12-29.678Z" transform="translate(-230.92827 -95.63783)" fill="#3f3d56"/><path id="b575756a-b91e-42cf-a15b-1b60f6a2610c" data-name="Path 18" d="M913.90927,440.08384a23.30005,23.30005,0,0,0-18.033,13.366,38.04612,38.04612,0,0,0-2.945,21.581c3.18,21.2,10.6,27.558,10.6,27.558s-7.42,3.18-5.3,6.36-2.12,3.18-2.12,3.18,0,1.06-3.18,3.18-5.3,1.06-6.36,2.12-5.3,0-5.3,0-12.719,22.259,0,24.379,18.019-8.48,23.319-7.42,30.738-7.42,28.618-27.559-11.659-67.836-19.079-66.776Z" transform="translate(-230.92827 -95.63783)" fill="#e6e6e6"/><path id="b8099647-f139-4340-a743-fc574e29cdbc" data-name="Path 19" d="M883.86826,369.02983a14.38392,14.38392,0,0,1,8.474-9.834c4.171-1.679,10.2-6.508,13.984-4.078,1.688,1.085,3.139,2.525,4.894,3.5,2.836,1.573,6.191,1.794,9.392,2.319,8.049,1.321,14.792,10.2,20.416,16.111s8.871,14.241,7.861,22.334c-.667,5.339-3.067,10.283-4.655,15.424s-2.3,10.979.274,15.7c2.951,5.42,9.33,7.907,13.637,12.327a20.587,20.587,0,0,1,2.81994,24.241,21.04058,21.04058,0,0,0-2.66894,4.9c-.5,1.8-.057,4.06,1.6,4.923a13.073,13.073,0,0,0,2.339.671c2.655.8,4.27295,3.526,4.981,6.208s.77,5.516,1.642,8.15c2.13,6.431-12.517,5.736-6.624,9.077-11.64294-.313-2.464,3.979-13.731,6.93-4.843,1.268-10.433,3.007-14.484.065-2.777-2.016-3.835-5.7-3.914-9.126s.634-6.843.561-10.273a25.37306,25.37306,0,0,0-10-19.06c-3.469-2.689-7.549-4.551-10.829-7.468a22.255,22.255,0,0,1-6.936-20.4c.508-2.663,1.516-5.281,1.366-7.987-.3-5.341-4.949-9.52-5.946-14.775-1.047-5.521,2.094-10.9,2.968-16.446a37.32956,37.32956,0,0,0-.179-10.159c-.659-5.579-1.651-11.365-4.959-15.906-3.111-4.271-7.418-7.105-12.693-7.418-1.7-.1.681-1.558,0,0" transform="translate(-230.92827 -95.63783)" fill="#2f2e41"/><ellipse id="b40a0ec8-8cea-415f-b8a8-4fdbfa219479" data-name="Ellipse 2" cx="671.01501" cy="296.191" rx="2.12" ry="4.24" fill="#feb9b9"/></g><path id="fc914514-1042-4f3e-9382-2a2bd3a05a2f" data-name="Path 62" d="M274.95425,95.63784a2.73,2.73,0,0,0-2.727,2.727v93.012a2.73,2.73,0,0,0,2.727,2.727h317.156a2.73,2.73,0,0,0,2.727-2.727v-93.012a2.73,2.73,0,0,0-2.727-2.727Z" transform="translate(-230.92827 -95.63783)" fill="#e6e6e6"/><path id="fc60a940-5b5f-47e1-886f-8b9349204f05" data-name="Path 63" d="M279.06023,187.27084h308.942v-84.8h-308.942Z" transform="translate(-230.92827 -95.63783)" fill="#fff"/><path id="b37dca77-34e7-4938-924b-74ea49a8e34b" data-name="Path 64" d="M549.00626,169.67782a4.5175,4.5175,0,1,0,0,9.035h18.069a4.5175,4.5175,0,1,0,0-9.035Z" transform="translate(-230.92827 -95.63783)" fill="#6c63ff"/><rect id="a114a1b8-363a-4115-bcea-0275bda15cb1" data-name="Rectangle 9" x="132.07699" y="65.27802" width="208.588" height="1.189" fill="#e6e6e6"/><circle id="fd059875-cd6f-429e-81eb-c199f1a3d666" data-name="Ellipse 12" cx="88.47597" cy="49.23301" r="26.311" fill="#e6e6e6"/><path id="ad693766-5e26-437f-8d3d-58ce33ee9e84" data-name="Path 65" d="M363.33725,154.27884l-.659-.989,21.675-14.45,14.863,7.135,21.379-13.659.289.123,42.24,18.019,33.867-16.637,32.887,13.333,41.323,8.4.788.89-41.875-7.911-33.077-13.411-33.88,16.642-42.452-18.109-21.408,13.677-14.85-7.128Z" transform="translate(-230.92827 -95.63783)" fill="#3f3d56"/><path id="ff424c2d-4733-4249-9b35-4eb43ebe2556" data-name="Path 66" d="M366.86824,170.30085a3.863,3.863,0,0,0,0,7.725h40.41a3.863,3.863,0,0,0,.1239-7.725q-.06189-.001-.1239,0Z" transform="translate(-230.92827 -95.63783)" fill="#e6e6e6"/><path d="M329.98761,144.54406a1.57789,1.57789,0,0,0-2.23157,0l-6.77386,6.7738V134.61431a1.57795,1.57795,0,0,0-3.15589,0v16.70355l-6.77386-6.7738a1.57794,1.57794,0,1,0-2.23157,2.23151l9.46759,9.46759a1.578,1.578,0,0,0,2.23157,0l9.46759-9.46759A1.57792,1.57792,0,0,0,329.98761,144.54406Z" transform="translate(-230.92827 -95.63783)" fill="#fff"/><path id="ebf544e0-cedc-491d-9ace-ce79788cc3b4" data-name="Path 68" d="M399.72923,244.60083a2.73,2.73,0,0,0-2.727,2.727v93.012a2.73,2.73,0,0,0,2.727,2.727h317.157a2.73,2.73,0,0,0,2.727-2.727v-93.012a2.73,2.73,0,0,0-2.727-2.727Z" transform="translate(-230.92827 -95.63783)" fill="#e6e6e6"/><path id="f05ecdaf-6a8f-49c4-b8a7-f7e5ce9efcf7" data-name="Path 69" d="M403.83623,336.23384h308.943v-84.8h-308.943Z" transform="translate(-230.92827 -95.63783)" fill="#fff"/><path id="a9f7bc9d-00a6-4157-bba1-ffc7ec111a68" data-name="Path 70" d="M673.78221,318.64285a4.51749,4.51749,0,0,0,0,9.035h18.06708a4.5175,4.5175,0,0,0,0-9.035h-18.069Z" transform="translate(-230.92827 -95.63783)" fill="#6c63ff"/><rect id="a15d3d52-efbb-4636-8d15-228635c5d6e5" data-name="Rectangle 10" x="256.85296" y="214.24202" width="208.588" height="1.189" fill="#e6e6e6"/><circle id="e4ee77d8-efe6-4a2a-a3ed-71b8f3ee957e" data-name="Ellipse 13" cx="213.25096" cy="198.197" r="26.311" fill="#6c63ff"/><path id="fc1c89ac-2b6e-4831-b128-0ac2ab1fa850" data-name="Path 71" d="M488.11125,303.24284l-.66-.989,21.675-14.45,14.864,7.135,21.379-13.659.289.123,42.239,18.019,33.868-16.637,32.887,13.332,41.323-36.6.788.89-41.87512,37.086-33.077-13.41-33.879,16.642-42.452-18.109-21.4079,13.677-14.846-7.125Z" transform="translate(-230.92827 -95.63783)" fill="#3f3d56"/><path id="bd690ac4-3df0-4871-95d5-adaa934b7c24" data-name="Path 72" d="M491.64424,319.26383a3.863,3.863,0,1,0-.12579,7.725q.0629.001.12579,0h40.41a3.863,3.863,0,0,0,0-7.725Z" transform="translate(-230.92827 -95.63783)" fill="#e6e6e6"/><path d="M433.59585,294.16161a1.57789,1.57789,0,0,0,2.23157,0l6.77387-6.7738v16.70355a1.57794,1.57794,0,1,0,3.15588,0V287.38781l6.77387,6.7738a1.57793,1.57793,0,1,0,2.23156-2.2315l-9.46759-9.46759a1.578,1.578,0,0,0-2.23157,0l-9.46759,9.46759A1.57791,1.57791,0,0,0,433.59585,294.16161Z" transform="translate(-230.92827 -95.63783)" fill="#fff"/><path id="b1a491a7-739b-4f1f-bff8-dbf70f6892c8" data-name="Path 56" d="M233.65525,393.56484a2.73,2.73,0,0,0-2.727,2.727v93.012a2.73,2.73,0,0,0,2.727,2.727h317.156a2.73,2.73,0,0,0,2.727-2.727v-93.012a2.73,2.73,0,0,0-2.727-2.727Z" transform="translate(-230.92827 -95.63783)" fill="#e6e6e6"/><path id="acd48b1a-d10a-4276-b388-f016adebff0c" data-name="Path 57" d="M237.76223,485.19786h308.943v-84.8h-308.943Z" transform="translate(-230.92827 -95.63783)" fill="#fff"/><path id="bed21912-b6c9-41df-a59b-963435bac71a" data-name="Path 58" d="M507.70726,467.60583a4.51749,4.51749,0,1,0,0,9.035h18.069a4.51749,4.51749,0,1,0,0-9.035Z" transform="translate(-230.92827 -95.63783)" fill="#6c63ff"/><rect id="a26455fb-834b-4368-afb2-80d86a75d46a" data-name="Rectangle 8" x="90.77798" y="363.20601" width="208.588" height="1.189" fill="#e6e6e6"/><circle id="f17c58cd-37a1-42e1-9e5f-26c2ec8825b4" data-name="Ellipse 11" cx="47.17699" cy="347.16002" r="26.311" fill="#6c63ff"/><path id="b803193f-4714-40c6-8606-08b9dea6d22d" data-name="Path 59" d="M322.03624,452.20686l-.659-.989,21.675-14.451,14.863,7.135,21.38-13.663,42.528,18.141,33.867-16.637,32.883,13.337,41.323-16.6.788.89-41.87,17.08893-33.077-13.41-33.879,16.642-42.452-18.109-21.407,13.678-14.85-7.128Z" transform="translate(-230.92827 -95.63783)" fill="#3f3d56"/><path id="b19b31b4-3a52-4fc9-8ed4-dc6729deb0ed" data-name="Path 60" d="M325.56924,468.2268a3.863,3.863,0,0,0,0,7.725h40.41a3.863,3.863,0,0,0,.12579-7.725q-.06289-.001-.12579,0Z" transform="translate(-230.92827 -95.63783)" fill="#e6e6e6"/><path d="M267.52188,443.12463a1.57789,1.57789,0,0,0,2.23157,0l6.77386-6.77381v16.70355a1.57795,1.57795,0,1,0,3.15589,0V436.35082l6.77386,6.77381a1.57794,1.57794,0,1,0,2.23157-2.23151l-9.46759-9.46759a1.578,1.578,0,0,0-2.23157,0l-9.46759,9.46759A1.57792,1.57792,0,0,0,267.52188,443.12463Z" transform="translate(-230.92827 -95.63783)" fill="#fff"/></svg>
+                  </div>
+
+                  <div class="ml-5">
+
+                    <!-- Heading -->
+                    <h4 class="mb-1 titlesAllSportCars">
+                      Transparentność
+                    </h4>
+
+                    <!-- Text -->
+                    <p class="text mb-5">
+                      Co najważniejsze, na platformie można odsprzedać swoje jednostki innym użytkownikom lub je od nich odkupić. W oszacowaniu rozwoju projektu pomagają cotygodniowe raporty z działania firmy oraz system wyliczający wartość rynkową jednostek.                 </p>
+
+                  </div>
+
+                  </div>
+                  <div class="otherTextAllSportCars d-flex lift lift-lg">
+
+                  <!-- Icon -->
+                  <div class="icon icon-lg ">
+                    <svg id="ed352ff4-7a14-4498-84af-0dc7b5b1bcd0" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="772.90945" height="531.44094" viewBox="0 0 772.90945 531.44094"><path d="M319.61433,712.67961A141.78089,141.78089,0,0,1,213.56155,573.28569c.1219-7.912.95378-15.99006,4.27976-23.1701s9.50394-13.39013,17.23186-15.09142c8.43389-1.8567,17.33349,1.93874,23.61873,7.861s10.40636,13.736,14.198,21.495c22.83782,46.734,40.18948,96.87978,46.6859,148.48823Z" transform="translate(-213.54528 -184.27953)" fill="#f2f2f2"/><path d="M231.247,536.58343,247.253,572.95049l16.006,36.36706c5.06915,11.51754,10.12863,23.04012,15.36814,34.48152,5.1935,11.34091,10.56495,22.6034,16.29525,33.684,5.72218,11.06486,11.80377,21.94912,18.40506,32.51522q1.23309,1.9737,2.49042,3.93206c.58008.90425,2.03014.06547,1.44595-.84519-6.72793-10.48763-12.92723-21.30541-18.74161-32.32388-5.82064-11.03036-11.2609-22.25747-16.50019-33.57425-5.26729-11.37725-10.332-22.84667-15.38326-34.321q-7.97541-18.11688-15.948-36.235l-16.00605-36.36706-1.99187-4.52568c-.43316-.98418-1.87645-.133-1.44595.84519Z" transform="translate(-213.54528 -184.27953)" fill="#fff"/><path d="M312.93738,712.93239a82.96676,82.96676,0,0,1-92.692-43.74066c-2.07267-4.14071-3.82153-8.55926-4.03308-13.1849s1.31945-9.51764,4.87237-12.48717c3.87749-3.2408,9.52264-3.67283,14.38463-2.29486s9.111,4.32217,13.17418,7.32689c24.47345,18.09816,47.01962,39.44868,64.3248,64.48912Z" transform="translate(-213.54528 -184.27953)" fill="#f2f2f2"/><path d="M219.51916,645.36213,237.647,659.92225l18.12782,14.56013c5.74112,4.61123,11.47858,9.22769,17.2876,13.75339,5.758,4.486,11.58722,8.88316,17.55363,13.089,5.958,4.19991,12.05376,8.209,18.33349,11.91267q1.173.69183,2.35449,1.36914c.54528.31287,1.07169-.51407.52254-.82916-6.32429-3.62871-12.46326-7.57153-18.45656-11.72247-5.99977-4.15542-11.85515-8.51568-17.63042-12.97675-5.80611-4.4849-11.53195-9.07235-17.25211-13.666q-9.03158-7.25292-18.062-14.50724L222.29761,646.3449,220.0417,644.533c-.49058-.394-1.0101.43755-.52254.82916Z" transform="translate(-213.54528 -184.27953)" fill="#fff"/><path d="M979.45472,184.27953h-487a7.00778,7.00778,0,0,0-7,7v330a7.00779,7.00779,0,0,0,7,7h487a7.00778,7.00778,0,0,0,7-7v-330A7.00778,7.00778,0,0,0,979.45472,184.27953Zm5,337a5.002,5.002,0,0,1-5,5h-487a5.002,5.002,0,0,1-5-5v-330a5.002,5.002,0,0,1,5-5h487a5.002,5.002,0,0,1,5,5Z" transform="translate(-213.54528 -184.27953)" fill="#3f3d56"/><rect x="272.90945" y="28.03998" width="499" height="2" fill="#3f3d56"/><circle cx="289.90945" cy="15" r="6" fill="#3f3d56"/><circle cx="307.15945" cy="15" r="6" fill="#3f3d56"/><circle cx="324.40945" cy="15" r="6" fill="#3f3d56"/><path d="M608.32283,258.77953h-84a7,7,0,1,1,0-14h84a7,7,0,0,1,0,14Z" transform="translate(-213.54528 -184.27953)" fill="#ccc"/><path d="M723.32283,292.77953h-199a7,7,0,0,1,0-14h199a7,7,0,0,1,0,14Z" transform="translate(-213.54528 -184.27953)" fill="#ccc"/><path d="M787.54267,306.30254a91.00351,91.00351,0,0,0,75.04394,142.477v-79.44Z" transform="translate(-213.54528 -184.27953)" fill="#6c63ff"/><path d="M862.58661,266.77953a90.896,90.896,0,0,0-75.04394,39.523l75.04394,63.037Z" transform="translate(-213.54528 -184.27953)" fill="#ccc"/><path d="M862.58661,449.77953h-1v-184h1a92,92,0,1,1,0,184Zm1-181.99463V447.77416a90.00019,90.00019,0,0,0,0-179.98926Z" transform="translate(-213.54528 -184.27953)" fill="#3f3d56"/><path d="M582.32283,487.27953h-17a4.50508,4.50508,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h17a4.50507,4.50507,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,582.32283,487.27953Z" transform="translate(-213.54528 -184.27953)" fill="#ccc"/><path d="M632.32283,487.27953h-17a4.50508,4.50508,0,0,1-4.5-4.5v-72a4.50508,4.50508,0,0,1,4.5-4.5h17a4.50507,4.50507,0,0,1,4.5,4.5v72A4.50508,4.50508,0,0,1,632.32283,487.27953Z" transform="translate(-213.54528 -184.27953)" fill="#ff6584"/><path d="M682.32283,487.27953h-17a4.50508,4.50508,0,0,1-4.5-4.5v-92a4.50508,4.50508,0,0,1,4.5-4.5h17a4.50507,4.50507,0,0,1,4.5,4.5v92A4.50508,4.50508,0,0,1,682.32283,487.27953Z" transform="translate(-213.54528 -184.27953)" fill="#6c63ff"/><path d="M582.32283,487.77953h-17a5.00573,5.00573,0,0,1-5-5v-110a5.00573,5.00573,0,0,1,5-5h17a5.00573,5.00573,0,0,1,5,5v110A5.00573,5.00573,0,0,1,582.32283,487.77953Zm-17-118a3.00328,3.00328,0,0,0-3,3v110a3.00329,3.00329,0,0,0,3,3h17a3.00328,3.00328,0,0,0,3-3v-110a3.00328,3.00328,0,0,0-3-3Z" transform="translate(-213.54528 -184.27953)" fill="#3f3d56"/><path d="M632.32283,487.77953h-17a5.00573,5.00573,0,0,1-5-5v-110a5.00573,5.00573,0,0,1,5-5h17a5.00573,5.00573,0,0,1,5,5v110A5.00573,5.00573,0,0,1,632.32283,487.77953Zm-17-118a3.00328,3.00328,0,0,0-3,3v110a3.00329,3.00329,0,0,0,3,3h17a3.00328,3.00328,0,0,0,3-3v-110a3.00328,3.00328,0,0,0-3-3Z" transform="translate(-213.54528 -184.27953)" fill="#3f3d56"/><path d="M682.32283,487.77953h-17a5.00573,5.00573,0,0,1-5-5v-110a5.00573,5.00573,0,0,1,5-5h17a5.00573,5.00573,0,0,1,5,5v110A5.00573,5.00573,0,0,1,682.32283,487.77953Zm-17-118a3.00328,3.00328,0,0,0-3,3v110a3.00329,3.00329,0,0,0,3,3h17a3.00328,3.00328,0,0,0,3-3v-110a3.00328,3.00328,0,0,0-3-3Z" transform="translate(-213.54528 -184.27953)" fill="#3f3d56"/><path d="M325.97669,543.28208A10.05577,10.05577,0,0,0,317.19187,530.61L308.592,495.92535l-12.58652,13.65332,10.09618,30.84389a10.11028,10.11028,0,0,0,19.875,2.85952Z" transform="translate(-213.54528 -184.27953)" fill="#ffb8b8"/><path d="M302.92,532.61453a4.50494,4.50494,0,0,1-2.5174-2.66936L286.04644,485.767a46.37348,46.37348,0,0,1,.76364-32.63527l13.83846-34.35489a14.49652,14.49652,0,1,1,28.5985,4.76667l-19.09249,55.55769,6.683,45.23868a4.51467,4.51467,0,0,1-2.5399,4.50394l-7.70875,3.67825a4.50568,4.50568,0,0,1-2.65851.38041A4.45465,4.45465,0,0,1,302.92,532.61453Z" transform="translate(-213.54528 -184.27953)" fill="#2f2e41"/><polygon points="160.343 518.443 172.603 518.442 178.435 471.154 160.341 471.155 160.343 518.443" fill="#ffb8b8"/><path d="M371.26153,699.21893h38.53073a0,0,0,0,1,0,0V714.1058a0,0,0,0,1,0,0H386.14839a14.88686,14.88686,0,0,1-14.88686-14.88686v0A0,0,0,0,1,371.26153,699.21893Z" transform="translate(567.54077 1229.02737) rotate(179.99738)" fill="#2f2e41"/><polygon points="99.343 518.443 111.603 518.442 117.435 471.154 99.341 471.155 99.343 518.443" fill="#ffb8b8"/><path d="M310.26153,699.21893h38.53073a0,0,0,0,1,0,0V714.1058a0,0,0,0,1,0,0H325.14839a14.88686,14.88686,0,0,1-14.88686-14.88686v0A0,0,0,0,1,310.26153,699.21893Z" transform="translate(445.54077 1229.03015) rotate(179.99738)" fill="#2f2e41"/><path d="M377.23949,509.99078l10.77686,85.38587q2.22236,17.60784,3.10973,35.34585l2.90343,58.06853a4,4,0,0,1-3.995,4.19975H373.67817a4,4,0,0,1-3.95471-3.39973l-14.71008-96.91351a2,2,0,0,0-3.94338-.06694l-17.72158,94.91672a4,4,0,0,1-3.62623,3.18424l-15.05405.95518a4,4,0,0,1-4.28995-4.11428l4.8613-155.56168Z" transform="translate(-213.54528 -184.27953)" fill="#2f2e41"/><circle cx="115.94619" cy="179.53015" r="24.56103" fill="#ffb8b8"/><path d="M310.23949,533.99078c6,14,32,24,38,4,4.64014-15.46,23.02-21.96,31.12989-24.11a4.01608,4.01608,0,0,0,2.86035-4.86005l-22.67041-89.05a31.272,31.272,0,0,0-21.06006-22.16c-18.01953-5.58-37.01953,5.91-40.06983,24.52a137.15658,137.15658,0,0,0-1.58984,15.76C294.95922,477.3808,306.2893,524.77075,310.23949,533.99078Z" transform="translate(-213.54528 -184.27953)" fill="#6c63ff"/><path d="M391.62938,533.96509a10.05577,10.05577,0,0,0-12.75277-8.66732l-20.49275-29.275-6.83741,17.2651L372.055,538.441a10.11027,10.11027,0,0,0,19.57442-4.47588Z" transform="translate(-213.54528 -184.27953)" fill="#ffb8b8"/><path d="M366.27921,532.29853a4.505,4.505,0,0,1-3.30867-1.586l-29.27686-36.06483a46.37356,46.37356,0,0,1-11.01848-30.72844l.56429-37.033a14.49652,14.49652,0,1,1,28.40042-5.832l2.15442,58.70723,22.49784,39.81265a4.51467,4.51467,0,0,1-.75115,5.1159l-5.87132,6.20338a4.50564,4.50564,0,0,1-2.34406,1.31062A4.4548,4.4548,0,0,1,366.27921,532.29853Z" transform="translate(-213.54528 -184.27953)" fill="#2f2e41"/><path d="M310.849,383.89889a4.00709,4.00709,0,0,0,5.90278-2.36826l.01371-.0559c.44576-1.86412.0756-3.81068-.05232-5.72308s.05925-4.01327,1.36174-5.41937c2.428-2.62114,6.74756-1.23165,10.25844-1.8944a8.66429,8.66429,0,0,0,6.74007-9.25291c-.05-.3975-.12841-.79545-.21633-1.19315a6.67288,6.67288,0,0,1,6.92675-8.0813c3.5481.20288,7.378,1.2779,10.31357-1.35011a7.60777,7.60777,0,0,0,1.82654-8.20134c-1.67623-4.8383-6.4137-7.37124-11.10186-8.76367a40.62025,40.62025,0,0,0-34.43036,5.64955c-2.96118,2.08724-5.72662,4.70983-6.98873,8.10575s-.65322,7.6803,2.19278,9.92206a18.332,18.332,0,0,0-4.24619,17.80643C300.7553,377.60865,307.46406,381.95122,310.849,383.89889Z" transform="translate(-213.54528 -184.27953)" fill="#2f2e41"/><path d="M489.65157,715.72047h-265a1,1,0,0,1,0-2h265a1,1,0,0,1,0,2Z" transform="translate(-213.54528 -184.27953)" fill="#3f3d56"/></svg>
+                  </div>
+
+                  <div class="ml-5">
+
+                    <!-- Heading -->
+                    <h4 class="mb-1 titlesAllSportCars">
+                      Wgląd w zysk
+                    </h4>
+
+                    <!-- Text -->
+                    <p class="text-white mb-5">
+                      Dzięki wykresom można sprawdzić jak zmieniała się wartość danego projektu na przestrzeni różnych jednostek czasu. 
+                  </div>
+
+                </div>
+                <div class="otherTextAllSportCars d-flex lift lift-lg">
+
+                  <!-- Icon -->
+                  <div class="icon icon-lg">
+                    <svg id="e4e579b4-5122-4d29-876c-085905a2d49a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="655" height="413.67951" viewBox="0 0 655 413.67951"><path d="M689.063,372.583a122.04116,122.04116,0,0,1,10.10051-38.51722q2.27961-5.09249,5.01812-9.96076a.7438.7438,0,0,0-1.28354-.75026,123.7286,123.7286,0,0,0-13.7678,37.98231q-1.03367,5.58355-1.55378,11.24593c-.08811.95214,1.39893.94613,1.48649,0Z" transform="translate(-272.5 -243.16024)" fill="#e6e6e6"/><circle cx="435.2819" cy="73.9144" r="9.4144" fill="#e6e6e6"/><path d="M690.026,372.83307a79.17357,79.17357,0,0,1,6.55267-24.98791q1.47888-3.30374,3.25549-6.462a.48254.48254,0,0,0-.83269-.48673,80.26825,80.26825,0,0,0-8.93182,24.6409q-.67059,3.6223-1.008,7.29575c-.05716.6177.90755.6138.96436,0Z" transform="translate(-272.5 -243.16024)" fill="#e6e6e6"/><circle cx="429.66984" cy="93.66195" r="6.10756" fill="#e6e6e6"/><path d="M688.80883,372.25653a79.17368,79.17368,0,0,1-10.2024-23.73277q-.86592-3.51453-1.40764-7.09749a.48253.48253,0,0,0-.95592.12838,80.26823,80.26823,0,0,0,8.11306,24.92247q1.69918,3.26856,3.69253,6.37254c.33485.5222,1.09311-.07422.76037-.59313Z" transform="translate(-272.5 -243.16024)" fill="#e6e6e6"/><circle cx="403.73518" cy="93.23322" r="6.10756" fill="#e6e6e6"/><path d="M670.05906,377.66024v-12a4.50508,4.50508,0,0,1,4.5-4.5h28a4.50508,4.50508,0,0,1,4.5,4.5v12a4.50508,4.50508,0,0,1-4.5,4.5h-28A4.50508,4.50508,0,0,1,670.05906,377.66024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><path d="M701.55906,301.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,701.55906,301.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="413.05906" y="9.5" width="20" height="4" fill="#ccc"/><rect x="413.05906" y="40.5" width="20" height="4" fill="#ccc"/><path d="M731.55906,301.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,731.55906,301.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="443.05906" y="9.5" width="20" height="4" fill="#ccc"/><rect x="443.05906" y="40.5" width="20" height="4" fill="#ccc"/><path d="M761.55906,301.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,761.55906,301.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="473.05906" y="9.5" width="20" height="4" fill="#ccc"/><rect x="473.05906" y="40.5" width="20" height="4" fill="#ccc"/><path d="M777.55906,382.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,777.55906,382.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="489.05906" y="90.5" width="20" height="4" fill="#ccc"/><rect x="489.05906" y="121.5" width="20" height="4" fill="#ccc"/><path d="M807.55906,382.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,807.55906,382.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="519.05906" y="90.5" width="20" height="4" fill="#ccc"/><rect x="519.05906" y="121.5" width="20" height="4" fill="#ccc"/><path d="M837.55906,382.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,837.55906,382.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="549.05906" y="90.5" width="20" height="4" fill="#ccc"/><rect x="549.05906" y="121.5" width="20" height="4" fill="#ccc"/><path d="M698.55906,463.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,698.55906,463.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="410.05906" y="171.5" width="20" height="4" fill="#ccc"/><rect x="410.05906" y="202.5" width="20" height="4" fill="#ccc"/><path d="M728.55906,463.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,728.55906,463.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="440.05906" y="171.5" width="20" height="4" fill="#ccc"/><rect x="440.05906" y="202.5" width="20" height="4" fill="#ccc"/><path d="M758.55906,463.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,758.55906,463.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="470.05906" y="171.5" width="20" height="4" fill="#ccc"/><rect x="470.05906" y="202.5" width="20" height="4" fill="#ccc"/><path d="M791.55906,301.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,791.55906,301.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="503.05906" y="9.5" width="20" height="4" fill="#ccc"/><rect x="503.05906" y="40.5" width="20" height="4" fill="#ccc"/><path d="M821.55906,301.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,821.55906,301.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="533.05906" y="9.5" width="20" height="4" fill="#ccc"/><rect x="533.05906" y="40.5" width="20" height="4" fill="#ccc"/><path d="M851.55906,301.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,851.55906,301.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="563.05906" y="9.5" width="20" height="4" fill="#ccc"/><rect x="563.05906" y="40.5" width="20" height="4" fill="#ccc"/><path d="M881.55906,301.16024h-12a4.50507,4.50507,0,0,1-4.5-4.5v-49a4.50508,4.50508,0,0,1,4.5-4.5h12a4.50508,4.50508,0,0,1,4.5,4.5v49A4.50508,4.50508,0,0,1,881.55906,301.16024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><rect x="593.05906" y="9.5" width="20" height="4" fill="#ccc"/><rect x="593.05906" y="40.5" width="20" height="4" fill="#ccc"/><path d="M926.5,302.66024h-285a1,1,0,0,1,0-2h285a1,1,0,0,1,0,2Z" transform="translate(-272.5 -243.16024)" fill="#ccc"/><path d="M926.5,383.66024h-285a1,1,0,0,1,0-2h285a1,1,0,0,1,0,2Z" transform="translate(-272.5 -243.16024)" fill="#ccc"/><path d="M926.5,464.66024h-285a1,1,0,0,1,0-2h285a1,1,0,0,1,0,2Z" transform="translate(-272.5 -243.16024)" fill="#ccc"/><path d="M854.063,453.583a122.04116,122.04116,0,0,1,10.10051-38.51722q2.27961-5.09249,5.01812-9.96076a.7438.7438,0,0,0-1.28354-.75026,123.7286,123.7286,0,0,0-13.7678,37.98231q-1.03367,5.58355-1.55378,11.24593c-.08811.95214,1.39893.94613,1.48649,0Z" transform="translate(-272.5 -243.16024)" fill="#e6e6e6"/><circle cx="600.2819" cy="154.9144" r="9.4144" fill="#e6e6e6"/><path d="M855.026,453.83307a79.17357,79.17357,0,0,1,6.55267-24.98791q1.47888-3.30374,3.25549-6.462a.48254.48254,0,0,0-.83269-.48673,80.26825,80.26825,0,0,0-8.93182,24.6409q-.67059,3.6223-1.008,7.29575c-.05716.6177.90755.6138.96436,0Z" transform="translate(-272.5 -243.16024)" fill="#e6e6e6"/><circle cx="594.66984" cy="174.66195" r="6.10756" fill="#e6e6e6"/><path d="M853.80883,453.25653a79.17368,79.17368,0,0,1-10.2024-23.73277q-.86592-3.51453-1.40764-7.09749a.48253.48253,0,0,0-.95592.12838,80.26823,80.26823,0,0,0,8.11306,24.92247q1.69918,3.26856,3.69253,6.37254c.33485.5222,1.09311-.07422.76037-.59313Z" transform="translate(-272.5 -243.16024)" fill="#e6e6e6"/><circle cx="568.73518" cy="174.23322" r="6.10756" fill="#e6e6e6"/><path d="M835.05906,458.66024v-12a4.50508,4.50508,0,0,1,4.5-4.5h28a4.50508,4.50508,0,0,1,4.5,4.5v12a4.50508,4.50508,0,0,1-4.5,4.5h-28A4.50508,4.50508,0,0,1,835.05906,458.66024Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><path d="M654.5,606.66024h-381a1,1,0,0,1,0-2h381a1,1,0,0,1,0,2Z" transform="translate(-272.5 -243.16024)" fill="#3f3d56"/><circle cx="199.05906" cy="205.5" r="27" fill="#2f2e41"/><polygon points="173.405 378.826 172.69 366.588 219.556 358.003 220.612 376.067 173.405 378.826" fill="#ffb8b8"/><path d="M436.62166,598.16324h23.64387a0,0,0,0,1,0,0v14.88687a0,0,0,0,1,0,0H421.7348a0,0,0,0,1,0,0v0A14.88686,14.88686,0,0,1,436.62166,598.16324Z" transform="translate(747.34041 -113.14222) rotate(86.65462)" fill="#2f2e41"/><polygon points="193.789 378.714 186.004 388.185 145.768 362.666 157.257 348.688 193.789 378.714" fill="#ffb8b8"/><path d="M454.38952,629.78677h23.64386a0,0,0,0,1,0,0v14.88687a0,0,0,0,1,0,0H439.50266a0,0,0,0,1,0,0v0A14.88686,14.88686,0,0,1,454.38952,629.78677Z" transform="translate(-597.31958 343.86136) rotate(-50.58212)" fill="#2f2e41"/><path d="M443.88663,577.83023l-5.31975,25.07884a4,4,0,0,0,3.84843,4.8295l52.29785.84351a4,4,0,0,0,4.00364-4.69462l-4.57453-25.92236a4,4,0,0,0-3.93914-3.30486H447.79957A4,4,0,0,0,443.88663,577.83023Z" transform="translate(-272.5 -243.16024)" fill="#2f2e41"/><path d="M452.55906,586.66024s-51-32-61-15c-5,8.5-2.5,16.75,1.25,22.875a34.63053,34.63053,0,0,0,14.4025,12.89112l41.3475,20.23388,15-16-10-9Z" transform="translate(-272.5 -243.16024)" fill="#2f2e41"/><path d="M478.55906,581.66024s66-19,53,17-62,22-62,22l-5-15,17-12Z" transform="translate(-272.5 -243.16024)" fill="#2f2e41"/><circle cx="199.39764" cy="211.66535" r="24.56103" fill="#ffb8b8"/><path d="M473.18454,585.629a131.99386,131.99386,0,0,1-30.25708-3.98633l-.29248-.08007-13.70556-63.04493a23.2247,23.2247,0,0,1,14.93286-26.94335,80.45969,80.45969,0,0,1,51.29956-1.02442h.00024a23.46956,23.46956,0,0,1,15.635,27.76465l-15.30835,63.19531-.21557.10254C488.91135,584.62606,480.956,585.629,473.18454,585.629Z" transform="translate(-272.5 -243.16024)" fill="#ccc"/><path d="M454.77438,590.52651a10.05573,10.05573,0,0,1,14.47536-5.31221l26.98651-23.42452,2.44163,18.40848-26.00117,19.4221a10.11027,10.11027,0,0,1-17.90233-9.09385Z" transform="translate(-272.5 -243.16024)" fill="#ffb8b8"/><path d="M480.51218,595.63583a4.53353,4.53353,0,0,1-1.29639-.19043,4.45263,4.45263,0,0,1-2.9624-2.81641l-3.25732-9.22851a4.472,4.472,0,0,1,1.30224-4.90235l36.7688-22.07422L496.573,491.76278l.36865-.08887c.14991-.0371,15.00025-3.417,21.0857,12.81055,4.26147,11.36524,20.03149,36.07715,18.91894,52.77637a14.88461,14.88461,0,0,1-12.322,13.72754l-41.38818,23.71289A4.456,4.456,0,0,1,480.51218,595.63583Z" transform="translate(-272.5 -243.16024)" fill="#ccc"/><path d="M484.63609,588.33293a10.05575,10.05575,0,0,0-14.47536-5.31221l-26.9865-23.42452-2.44163,18.40848,26.00117,19.4221a10.11027,10.11027,0,0,0,17.90232-9.09385Z" transform="translate(-272.5 -243.16024)" fill="#ffb8b8"/><path d="M461.60593,595.63583a4.456,4.456,0,0,1-2.72388-.93457l-44.38818-21.71289a14.88461,14.88461,0,0,1-12.322-13.72754c-1.11255-16.69922,17.65747-43.41113,21.91894-54.77637,6.085-16.22754,20.93555-12.84863,21.0857-12.81055l.36865.08887L428.051,558.42391l39.7688,20.07422a4.472,4.472,0,0,1,1.30224,4.90235l-3.25732,9.22851a4.45263,4.45263,0,0,1-2.9624,2.81641A4.5348,4.5348,0,0,1,461.60593,595.63583Z" transform="translate(-272.5 -243.16024)" fill="#ccc"/><path d="M514.55908,605.66016h-89a7.00818,7.00818,0,0,1-7-7v-49a7.00818,7.00818,0,0,1,7-7h89a7.00817,7.00817,0,0,1,7,7v49A7.00818,7.00818,0,0,1,514.55908,605.66016Z" transform="translate(-272.5 -243.16024)" fill="#6c63ff"/><circle cx="197.55906" cy="331" r="6" fill="#fff"/><path d="M447.09061,453.82593c-1.45566-3.6923.93266-8.09242,4.47568-9.881s7.81846-1.44843,11.60824-.26964c3.18484.99063,6.16976,2.52588,9.27688,3.73845a20.76152,20.76152,0,0,0,9.75287,1.73691c3.31428-.37431,6.61291-2.23278,7.96907-5.28,1.40574-3.15859.44963-7.01316-1.71516-9.7088a18.79922,18.79922,0,0,0-8.61171-5.5348c-7.3075-2.57443-15.74829-2.64969-22.53234,1.0925s-11.39446,11.7102-9.99219,19.33" transform="translate(-272.5 -243.16024)" fill="#2f2e41"/><path d="M305.16247,594.9787A122.0417,122.0417,0,0,1,315.263,556.46148q2.27961-5.09249,5.01813-9.96076a.7438.7438,0,0,0-1.28354-.75026,123.72825,123.72825,0,0,0-13.7678,37.98231q-1.03366,5.58356-1.55378,11.24593c-.08811.95214,1.39893.94613,1.48648,0Z" transform="translate(-272.5 -243.16024)" fill="#e6e6e6"/><circle cx="51.38142" cy="296.31007" r="9.4144" fill="#6c63ff"/><path d="M306.1255,595.22874a79.1741,79.1741,0,0,1,6.55267-24.98791q1.47889-3.30373,3.25549-6.462a.48254.48254,0,0,0-.83269-.48673,80.26852,80.26852,0,0,0-8.93181,24.64089q-.67059,3.62232-1.008,7.29576c-.05716.6177.90755.6138.96435,0Z" transform="translate(-272.5 -243.16024)" fill="#e6e6e6"/><circle cx="45.76935" cy="316.05762" r="6.10756" fill="#6c63ff"/><path d="M304.90835,594.6522a79.174,79.174,0,0,1-10.20241-23.73277q-.86592-3.51453-1.40763-7.09749a.48253.48253,0,0,0-.95592.12838,80.26809,80.26809,0,0,0,8.11306,24.92246q1.69919,3.26857,3.69252,6.37255c.33485.5222,1.09311-.07422.76038-.59313Z" transform="translate(-272.5 -243.16024)" fill="#e6e6e6"/><circle cx="19.8347" cy="315.62888" r="6.10756" fill="#6c63ff"/><path d="M286.15857,600.05591v-12a4.50508,4.50508,0,0,1,4.5-4.5h28a4.50508,4.50508,0,0,1,4.5,4.5v12a4.50508,4.50508,0,0,1-4.5,4.5h-28A4.50508,4.50508,0,0,1,286.15857,600.05591Z" transform="translate(-272.5 -243.16024)" fill="#f2f2f2" style="isolation:isolate"/><path d="M586.90885,614.06085c0,6.57707-5.33178,9.56657-11.90885,9.56657s-11.90885-2.9895-11.90885-9.56657S565.73756,599.80972,575,602.45614C584.26244,598.48652,586.90885,607.48377,586.90885,614.06085Z" transform="translate(-272.5 -243.16024)" fill="#ff6584"/><path d="M574.41992,605.53711a1.90366,1.90366,0,0,1-1.89111-1.65918c-.39429-3.28125-2.56763-9.708-3.48364-12.31836l-.00025-.001a1.703,1.703,0,0,1,.22022-1.5664,1.78652,1.78652,0,0,1,2.66333-.19239,1.70477,1.70477,0,0,1,.46826,1.27637c-.17944,3.35059,2.26294,8.76465,3.73486,11.69434a1.90795,1.90795,0,0,1-1.50976,2.75586A1.76339,1.76339,0,0,1,574.41992,605.53711Z" transform="translate(-272.5 -243.16024)" fill="#3f3d56"/><path d="M583.232,598.14572c4.13393-3.38342.89056-10.30763-4.28341-8.9784a4.17809,4.17809,0,0,0-1.8637.99416c-3.17381,2.99811-3.66567,10.66906-3.66567,10.66906S579.02377,601.58992,583.232,598.14572Z" transform="translate(-272.5 -243.16024)" fill="#3f3d56"/></svg>
+                  </div>
+
+                  <div class="ml-5">
+
+                    <!-- Heading -->
+                    <h4 class="mb-1 titlesAllSportCars">
+                      Automatyzacja
+                    </h4>
+
+                    <!-- Text -->
+                    <p class="text-white mb-5">
+                      Dla ułatwienia procesu zakupu i sprzedaży, stworzyliśmy narzędzie które pozwala na automatyczną sprzedaż od razu gdy ktoś zaoferuje odpowiednią kwotę. 
+
+                  </div>
+
+                </div>
+                <div class="col-6" >
+
+            </div>
+
+          </div>  <!-- / .row -->
+
+        </div>
+
+      </div> <!-- / .container -->
+    </section>
+
+     <section class="py-6 py-md-6 bg-gradient-light" id="SectionMoreInfo6">
+      <div class="container">
+        <div class="row ">
+          <div class="col-6 mt-9 ">
+
+              <!-- Heading -->
+            <h2 class="otherTextAllSportCars">
+              Za każde zainwestowane 900 zł otrzymasz kupon o wartości rynkowej około 700 zł. Kupon uprawnia do wynajmu na 24h jednego z trzech samochodów : Renault Megane Rs, Ford Focus Rs, Ford Mustang 5.0 !!!
+            </h2>
+            <h4 class="otherTextAllSportCars"> Liczba kuponów nie jest ograniczona, możesz zainwestować dowolne kwoty i z każdym przekroczonym 900 zł otrzymasz kolejny kupon !  </h4>
+            <h4 class="otherTextAllSportCars">Dodatkowo, za każdych poleconych 2 znajomych, którzy również zainwestują minimum 900 zł otrzymasz kupon gratis !</h4>
+            <h4 class="otherTextAllSportCars"> Dzisiaj dajemy Ci poza świetną okazją do inwestycji możliwość poczucia adrenaliny za kierownicą jednego ze sportowych aut!</h4>
+          </div>
+          <div class="col-6 mt-9">
+            <!-- Image (placeholder) -->
+            <img src="../assets/img/illustrations/giveCarKey.jpg" alt="..." class="img-fluid   ">
+            <!-- Shape -->
+          
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-6">  
+
+        </div> <!-- / .row -->
+        <div class="row justify-content-center">
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CTA
+    ================================================== -->
+    <section class="pt-md-6">
+      <div class="container pb-6 pb-md-8 border-bottom">
+        <div class="row align-items-center">
+          <div class="col-12 col-md">
+
+           <h2 class="titlesAllSportCars"> Inwestycja 900zł = kupon = wymarzone auto na 24h ! </h2>
+            <!-- Text -->
+            <p class="otherTextAllSportCars font-size-lg mb-6 mb-md-0">
+              Spełnij marzenia i usiądź za kierownicą sportowego samochodu, a przy tym zarabiaj pieniądze!
+            </p>
+
+          </div>
+          <div class="col-12 col-md-auto">
+
+            <!-- Button -->
+            <a href="#!" class="otherTextAllSportCars btn btn-primary lift">
+              INWESTUJ!
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+        
+            <!-- Brand -->
+            <img src="./assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2">
+
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">
+              A better way to build.
+            </p>
+
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Products
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Page Builder
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  UI Kit
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Styleguide
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Services
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Pagebuilder
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  UI Kit
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Connect
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Page Builder
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  UI Kit
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Styleguide
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Pagebuilder
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script src="./node_modules/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="./node_modules/countup.js/dist/countUp.min.js"></script>
+    <script src="./node_modules/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="./node_modules/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./node_modules/flickity-fade/flickity-fade.js"></script>
+    <script src="./node_modules/highlightjs/highlight.pack.min.js"></script>
+    <script src="./node_modules/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="./node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="./node_modules/jarallax/dist/jarallax.min.js"></script>
+    <script src="./node_modules/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="./node_modules/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="./node_modules/quill/dist/quill.min.js"></script>
+    <script src="./node_modules/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./node_modules/typed.js/lib/typed.min.js"></script>
+
+    <!-- Map -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <!-- build:js ./assets/js/theme.min.js -->
+    <script src="./assets/js/polyfills.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/choices.js"></script>
+    <script src="./assets/js/countup.js"></script>
+    <script src="./assets/js/dropdown.js"></script>
+    <script src="./assets/js/dropzone.js"></script>
+    <script src="./assets/js/fancybox.js"></script>
+    <script src="./assets/js/highlight.js"></script>
+    <script src="./assets/js/isotope.js"></script>
+    <script src="./assets/js/map.js"></script>
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/popovers.js"></script>
+    <script src="./assets/js/pricing.js"></script>
+    <script src="./assets/js/quill.js"></script>
+    <script src="./assets/js/smooth-scroll.js"></script>
+    <script src="./assets/js/tooltips.js"></script>
+    <script src="./assets/js/typed.js"></script>
+    <!-- endbuild -->
+
+
+  </body>
+</html>
