@@ -19,6 +19,101 @@
   url("#{$path-to-fonts}/HK%20Grotesk%20Pro/HKGroteskPro-Medium.woff") format("woff");
 }
 
+@font-face {
+    font-family: 'Fractul';
+    src: url('../fonts/fractul/Fractul-SemiBoldItalic.eot');
+    src: url('../fontsfractul//Fractul-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fractul/Fractul-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/fractul/Fractul-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/fractul/Fractul-SemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/fractul/Fractul-SemiBoldItalic.svg#Fractul-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('../fonts/fractul/Fractul-SemiBold.eot');
+    src: url('../fonts/fractul/Fractul-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fractul/Fractul-SemiBold.woff2') format('woff2'),
+        url('../fonts/fractul/Fractul-SemiBold.woff') format('woff'),
+        url('../fonts/fractul/Fractul-SemiBold.ttf') format('truetype'),
+        url('../fonts/fractul/Fractul-SemiBold.svg#Fractul-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('../fonts/fractul/Fractul-Medium.eot');
+    src: url('../fonts/fractul/Fractul-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fractul/Fractul-Medium.woff2') format('woff2'),
+        url('../fonts/fractul/Fractul-Medium.woff') format('woff'),
+        url('../fonts/fractul/Fractul-Medium.ttf') format('truetype'),
+        url('../fonts/fractul/Fractul-Medium.svg#Fractul-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('../fonts/fractul/Fractul-BoldItalic.eot');
+    src: url('../fonts/fractul/Fractul-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fractul/Fractul-BoldItalic.woff2') format('woff2'),
+        url('../fonts/fractul/Fractul-BoldItalic.woff') format('woff'),
+        url('../fonts/fractul/Fractul-BoldItalic.ttf') format('truetype'),
+        url('../fonts/fractul/Fractul-BoldItalic.svg#Fractul-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('../fonts/fractul/Fractul-MediumItalic.eot');
+    src: url('../fonts/fractul/Fractul-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fractul/Fractul-MediumItalic.woff2') format('woff2'),
+        url('../fonts/fractul/Fractul-MediumItalic.woff') format('woff'),
+        url('../fonts/fractul/Fractul-MediumItalic.ttf') format('truetype'),
+        url('../fonts/fractul/Fractul-MediumItalic.svg#Fractul-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('../fonts/fractul/Fractul-Regular.eot');
+    src: url('../fonts/fractul/Fractul-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fractul/Fractul-Regular.woff2') format('woff2'),
+        url('../fonts/fractul/Fractul-Regular.woff') format('woff'),
+        url('../fonts/fractul/Fractul-Regular.ttf') format('truetype'),
+        url('../fonts/fractul/Fractul-Regular.svg#Fractul-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('../fonts/fractul/Fractul-Bold.eot');
+    src: url('../fonts/fractul/Fractul-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fractul/Fractul-Bold.woff2') format('woff2'),
+        url('../fonts/fractul/Fractul-Bold.woff') format('woff'),
+        url('../fonts/fractul/Fractul-Bold.ttf') format('truetype'),
+        url('../fonts/fractul/Fractul-Bold.svg#Fractul-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('../fonts/fractul/Fractul-Italic.eot');
+    src: url('../fonts/fractul/Fractul-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fractul/Fractul-Italic.woff2') format('woff2'),
+        url('../fonts/fractul/Fractul-Italic.woff') format('woff'),
+        url('../fonts/fractul/Fractul-Italic.ttf') format('truetype'),
+        url('../fonts/fractul/Fractul-Italic.svg#Fractul-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
 
 // Headings
 
