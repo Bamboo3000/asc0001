@@ -31,6 +31,16 @@ $danger: #DF4759 !default;
 $light: $gray-100 !default;
 $dark: $gray-900 !default;
 
+// ALL SPORT CARS COLORS
+
+$black-asc: #000000;
+$primary-red: #FF0000;
+$primary-light-red: #FF6262;
+$primary-dark-red: #D80000;
+
+//ALL SPORT CARS COLORS
+
+
 $theme-colors: () !default;
 
 $theme-colors: ("primary-desat": $primary-desat,
@@ -154,6 +164,9 @@ $box-shadow-lift-lg: 0 2rem 5rem fade-out($black, .9), 0 .5rem 1rem -.75rem fade
 // Font, line-height, and color for body text, headings, and more.
 
 $font-family-base: 'HKGroteskPro', serif !default;
+$font-title: 'Fractul',  !default;
+$font-section: 'Poppins', !default;
+
 
 $font-size-base: 1.0625rem !default;
 $font-size-lg: 1.1875rem !default;

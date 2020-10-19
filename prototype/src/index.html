@@ -15,16 +15,16 @@
      <!-- NAVBAR
     ================================================== -->
     @@include("partials/navbar.html", {
-      "classList": "navbar-light bg-white border-bottom",
+      "classList": "navbar-light bg-white ",
       "container": "container"
     })
 
 
     <!-- WELCOME
     ================================================== -->
-    <section data-jarallax data-speed=".8" class="pt-12 pb-12 pt-md-25 pb-md-14 overlay overlay-black overlay-60" style="background-image: url(assets/img/illustrations/header2.png)">
+    <section data-jarallax data-speed=".8" class="firstSection pt-12 pb-12 pt-md-25 pb-md-14 overlay overlay-black overlay-60" style="background-image: url(assets/img/illustrations/header2.png)">
       <div class="container">
-        <div class="row  justify-content-left">
+        <div class="row  justify-content-left mt-10">
           <div class="col-12 col-md-8 col-lg-6 mt-10">
 
             <!-- Heading -->
@@ -46,20 +46,16 @@
     <section class="py-8 py-md-9 mb-10 border-bottom"  >
       <div class="container">
         <div class="row justify-content-center"  >
-         <!-- Headin -->
-            <h1 class="titlesAllSportCars display-4 font-weight-bold text-center" data-aos="fade-up" data-aos-delay="50">
-             Całkowicie zmieniamy pogląd na wynajem samochodów! 
-            </h1>
           <div class="row text-left" id="SectionMoreInfo1">
-
-            <!-- Text -->
-            
-              <div class="col-12">
-                <p class="otherTextAllSportCars text-align-center  text-lift mb-6 ml-6" data-aos="fade-up" data-aos-delay="100">
-                  W Polsce jak i na całym świecie wynajem aut jest jednym z usług, które rozwijają się niesamowicie szybko. Rynek wynajmu to już nie tylko auta na potrzeby wesel, filmów, teledysków czy reklam. 
-                  Dzięki coraz lepszym warunkom, z tego rodzaju usług w znacznym stopniu zaczęły korzystać osoby prywatne - miłośnicy motoryzacji oraz ci, którzy chcą przeżyć prawdziwą przygodę i poczuć adrenalinę!
-                </p>
-              </div>
+            <div class="col-12 col-lg-8 ml-13">
+               <h1 class="titlesAllSportCars display-4 font-weight-bold text-center" data-aos="fade-up" data-aos-delay="50">
+                Całkowicie zmieniamy pogląd na wynajem samochodów! 
+               </h1>
+               <p class="otherTextAllSportCars text-center  text-lift mb-6 ml-5 mr-5" data-aos="fade-up" data-aos-delay="100">
+                W Polsce jak i na całym świecie wynajem aut jest jednym z usług, które rozwijają się niesamowicie szybko. Rynek wynajmu to już nie tylko auta na potrzeby wesel, filmów, teledysków czy reklam. 
+                Dzięki coraz lepszym warunkom, z tego rodzaju usług w znacznym stopniu zaczęły korzystać osoby prywatne - miłośnicy motoryzacji oraz ci, którzy chcą przeżyć prawdziwą przygodę i poczuć adrenalinę!
+              </p>
+            </div>
           </div>
         </div> <!-- / .row -->
         <div class="row">
@@ -82,7 +78,7 @@
     <!-- SHAPE
     ================================================== -->
    <div class="position-relative mt-n12 mt-md-n15">
-      <div class="shape shape-bottom shape-fluid-x svg-shim text-black">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-300">
         @@include("assets/img/shapes/angles/angle-bottom.svg")
       </div>
     </div>
@@ -91,14 +87,14 @@
     ================================================== -->
    
 
-    <section class="col-12 py-13 py-md-14 bg-black"  id="SectionMoreInfo2"> 
+    <section class="col-12 py-13 py-md-14 bg-gray-300"  id="SectionMoreInfo2"> 
       
-        <div class="row">
-          <div class="col-12 col-md-6 order-md-1 position-center">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-5 col-md-6 order-md-1">
             <!-- Body -->
-            <h1 class=" titleAllSportCars text-white ml-16 "> TYTUŁ SEKCJI 3</h1>
+            <h1 class="titlesAllSportCars text-black text-center "> TYTUŁ SEKCJI 3</h1>
                 <!-- Text -->
-                <p class="otherTextAllSportCars mb-5 mb-md-7 text-white text-center ">
+                <p class="otherTextAllSportCars mb-5 mb-md-7 text-black text-center ">
                   Ten młody dynamiczny rynek przyciąga coraz większą ilość inwestorów dostrzegających ogromny potencjał  rozwoju i zwrotu z inwestycji.
                   Jaki jest największy problem, z którym mierzy się ten rynek?
                   Aby wynająć wymarzone auto trzeba przebijać się godzinami po stronach wypożyczalni z różnych części kraju, porównując oferty, cenniki itd. 
@@ -106,9 +102,9 @@
                 </p>
                 <!-- Footer -->
                 
-                  <p class="otherTextAllSportCars text-uppercase text-center">All Sport Cars rozwiązuje ten problem!</p>
-              <div class="ctaButtonSection4  mt-10 ml-16">
-                <a class="titlesAllSportCars btn btn-lg btn-danger shadow lift " disabled data-toggle="smooth-scroll" href="#SectionMoreInfo3">
+                  <h2 class="otherTextAllSportCars text-uppercase text-center">All Sport Cars rozwiązuje ten problem!</h2>
+              <div class="ctaButtonSection4  mt-5 ml-14">
+                <a class="titlesAllSportCars btn btn-danger ml-2 " disabled data-toggle="smooth-scroll"  href="#SectionMoreInfo3">
                   Zobacz jak!
                 </a>
               </div>
@@ -117,38 +113,64 @@
         
         </div>
     </section>
+     <section class="border-bottom">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-12 col-md-6 offset-md-1 order-md-2">
 
+            <!-- Slider (mobile) -->
+            <div class="d-md-none img-cover" data-flickity='{"imagesLoaded": true, "wrapAround": true, "prevNextButtons": false, "pageDots": false}'>
+              <div class="w-100">
+                
+                <!-- Image -->
+                <img src="assets/img/illustrations/section4.PNG" alt="..." class="img-fluid">
 
+              </div>
+            
+            </div>
 
-    <!-- PLACEMENT RATES
-    ================================================== -->
-    <section id="SectionMoreInfo3">
-      <div class="container py-8 pt-md-12 pb-md-9">
-        <div class="row align-items-center " >
-          <div class="col-10 col-md-6">
+            <!-- Slider -->
+            <div class="position-relative h-100 vw-50 d-none d-md-block" data-aos="fade-left">
 
+              <!-- Slider -->
+              <div class="h-100 w-100" >
+                <div class="w-100 h-100 bg-cover" style="background-image: url(assets/img/illustrations/section4.PNG);"></div>
+                
+              </div>
+  
+              <!-- Shape -->
+              <div class="shape shape-left shape-fluid-y svg-shim text-white">
+                @@include("assets/img/shapes/angles/angle-left.svg")
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-5 py-8 py-md-14 order-md-1" data-aos="fade-right">
+            
             <!-- Heading -->
-            <h3 class="otherTextAllSportCars mb-6 mb-md-8">
-              Będzie  to platforma, na której w łatwy sposób klienci mogą sprawdzić oferty wielu różnych  wypożyczalni, porównać ich ceny, dostępność samochodu w wybranym terminie- wybierając idealne auto! 
-            </h3>
-            <h3 class="otherTextAllSportCars mb-6 mb-md-8">
+            <h1 class="titlesAllSportCars display-3">
+              Tytuł sekcji 4 
+            </h1>
+
+            <p class=" otherTextAllSportCars mb-6 mb-md-8">
+                Będzie  to platforma, na której w łatwy sposób klienci mogą sprawdzić oferty wielu różnych  wypożyczalni, porównać ich ceny, dostępność samochodu w wybranym terminie- wybierając idealne auto!  
+            </p>
+            <p class="otherTextAllSportCars mb-6 mb-md-8">
               Dzięki systemowi łączącemu z wypożyczalniami klient od razu po wybraniu  może dokonać rezerwacji i płatności online. 
               wypożyczalnie zyskują system do zarządzania rezerwacjami samochodów oraz źródło dodatkowych klientów wyszukujących auta na platformie. 
-            </h3>
-
-          </div class="col-2">
-          <div class="ctaButtonSection4">
-            <a class="titlesAllSportCars btn btn-lg btn-danger " disabled data-toggle="smooth-scroll" href="#SectionMoreInfo4">
-              Zobacz jak!
-            </a>
-          </div> <!--CTA BUTTON-->
-          
+            </p>
+            <div class="ctaButtonSection4">
+              <a class="titlesAllSportCars btn btn-danger ml-2 " disabled data-toggle="smooth-scroll"  href="#SectionMoreInfo4">
+                Zobacz jak!
+              </a>
+            </div> <!--CTA BUTTON-->
+            
+          </div>
         </div> <!-- / .row -->
-         
       </div> <!-- / .container -->
     </section>
 
-  
 
     <!-- ABOUT
     ================================================== -->
@@ -161,13 +183,13 @@
                     Aby zdobyć kapitał na stworzenie All Sport Cars, powstała zbiórka na FUND IT- platformie do inwestowania w rozwojowe projekty.
                   </h1>
                   <div class="ctaButtonSection4">
-                    <a class=" titlesAllSportCars btn btn-lg btn-success " disabled data-toggle="smooth-scroll" href="#">
+                    <a class="titlesAllSportCars btn btn-success ml-2 " disabled data-toggle="smooth-scroll"  href="#">
                      Dowiedz się więcej od FUND IT!
                     </a>
                   </div> <!--CTA BUTTON-->
 
                   <div class="ctaButtonSection4 mt-8">
-                    <a class=" titlesAllSportCars btn btn-lg btn-danger " disabled data-toggle="smooth-scroll" href="#SectionMoreInfo6">
+                    <a class="titlesAllSportCars btn btn-danger ml-2 " disabled data-toggle="smooth-scroll"  href="#SectionMoreInfo6">
                       Zainwestuj i zarabiaj razem z nami!
                     </a>
                   </div> <!--CTA BUTTON-->
@@ -193,7 +215,6 @@
                     <!-- Text -->
                     <p class="text-white mb-5 ">
                   Inwestując w Allsportcars, użytkownik otrzymuje jednostki udziałowe uprawniające go do udziału w zysku jaki wypracuje spółka.                 </p>
-                    </p>
 
                   </div>
 
@@ -236,6 +257,7 @@
                     <!-- Text -->
                     <p class="text-white mb-5">
                       Dzięki wykresom można sprawdzić jak zmieniała się wartość danego projektu na przestrzeni różnych jednostek czasu. 
+                    </p>
                   </div>
 
                 </div>
@@ -256,7 +278,7 @@
                     <!-- Text -->
                     <p class="text-white mb-5">
                       Dla ułatwienia procesu zakupu i sprzedaży, stworzyliśmy narzędzie które pozwala na automatyczną sprzedaż od razu gdy ktoś zaoferuje odpowiednią kwotę. 
-
+                    </p>
                   </div>
 
                 </div>
@@ -290,12 +312,6 @@
             <!-- Shape -->
           
           </div>
-        </div> <!-- / .row -->
-        <div class="row">
-          <div class="col-12 col-md-6">  
-
-        </div> <!-- / .row -->
-        <div class="row justify-content-center">
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
