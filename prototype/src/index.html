@@ -327,39 +327,33 @@
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
-
-
-     <section class="py-6 py-md-6 bg-gradient-light" id="SectionMoreInfo6">
-      <div class="container">
-        <div class="row ">
-          <div class="col-6 mt-9 ">
-
-              <!-- Heading -->
-            <h2 class="otherTextAllSportCars">
-              Za każde zainwestowane 900 zł otrzymasz kupon o wartości rynkowej około 700 zł. Kupon uprawnia do wynajmu na 24h jednego z trzech samochodów : Renault Megane Rs, Ford Focus Rs, Ford Mustang 5.0 !!!
-            </h2>
-            <h4 class="otherTextAllSportCars"> Liczba kuponów nie jest ograniczona, możesz zainwestować dowolne kwoty i z każdym przekroczonym 900 zł otrzymasz kolejny kupon !  </h4>
-            <h4 class="otherTextAllSportCars">Dodatkowo, za każdych poleconych 2 znajomych, którzy również zainwestują minimum 900 zł otrzymasz kupon gratis !</h4>
-            <h4 class="otherTextAllSportCars"> Dzisiaj dajemy Ci poza świetną okazją do inwestycji możliwość poczucia adrenaliny za kierownicą jednego ze sportowych aut!</h4>
-          </div>
-          <div class="col-6 mt-9">
-            <!-- Image (placeholder) -->
-            <img src="../assets/img/illustrations/giveCarKey.jpg" alt="..." class="img-fluid   ">
-            <!-- Shape -->
-          
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-    <!-- CTA
+        <!-- CTA
     ================================================== -->
+    <section>
+      <div class="container d-flex flex-column" id="SectionMoreInfo6" data-aos="fade-up" data-aos-delay="200">
+        <div class="row align-items-center justify-content-center min-vh-80 py-8 mt-9 mb-2">
+          <div class="col-12 col-md-9 col-lg-8 col-xl-7 text-center">
+
+            <!-- Heading -->
+            <h1 class="titlesAllSportCars display-3 mb-9">Tytuł sekcji 6</h1>
+
+            <!-- Text -->
+            <p class="otherTextAllSportCars mb-5 font-size-lg text-gray-800">
+              Za każde zainwestowane 900 zł otrzymasz kupon o wartości rynkowej około 700 zł. Kupon uprawnia do wynajmu na 24h jednego z trzech samochodów : Renault Megane Rs, Ford Focus Rs, Ford Mustang 5.0 !!!
+              Liczba kuponów nie jest ograniczona, możesz zainwestować dowolne kwoty i z każdym przekroczonym 900 zł otrzymasz kolejny kupon !
+              Dodatkowo, za każdych poleconych 2 znajomych, którzy również zainwestują minimum 900 zł otrzymasz kupon gratis !
+              Dzisiaj dajemy Ci poza świetną okazją do inwestycji możliwość poczucia adrenaliny za kierownicą jednego ze sportowych aut!            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="pt-md-6">
       <div class="container pb-6 pb-md-8 border-bottom">
         <div class="row align-items-center">
           <div class="col-12 col-md">
 
-           <h2 class="titlesAllSportCars"> Inwestycja 900zł = kupon = wymarzone auto na 24h ! </h2>
+           <h1 class="titlesAllSportCars"> Inwestycja 900zł = kupon = wymarzone auto na 24h ! </h1>
             <!-- Text -->
             <p class="otherTextAllSportCars font-size-lg mb-6 mb-md-0">
               Spełnij marzenia i usiądź za kierownicą sportowego samochodu, a przy tym zarabiaj pieniądze!
@@ -369,7 +363,7 @@
           <div class="col-12 col-md-auto">
 
             <!-- Button -->
-            <a href="#!" class="otherTextAllSportCars btn btn-primary lift">
+            <a href="#!" class="otherTextAllSportCars btn btn-danger">
               INWESTUJ!
             </a>
 
@@ -378,11 +372,28 @@
       </div> <!-- / .container -->
     </section>
 
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-300">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+    
+
     <!-- FOOTER
     ================================================== -->
     @@include("partials/footer.html", {
-    "classList": "bg-white"
+    "classList": "bg-gray-300"
     })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+
+
+     
 
     <!-- JAVASCRIPT
     ================================================== -->
