@@ -14,16 +14,19 @@
 
 .titlesAllSportCars{
   font-family: $font-title !important;
-  line-height: 1.5;
+  line-height: 1.4;
+  font-weight: 500;
 }
 
 .textSection{
   font-size: 1rem;
 }
 
-.firstSection{
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  color:red;
 }
 
 .otherTextAllSportCars{
@@ -34,7 +37,7 @@
 
 .cardSectionMoreInfo4{
 
-  min-height: 27vh;
+  min-height: 17vh;
 }
 
 .sectionMoreInfo4MarginTop{
@@ -53,6 +56,10 @@
 .sectionMenu {
   z-index:12000;
 
+}
+
+.section6Card{
+  margin-bottom: 4.5rem ;
 }
 
 
