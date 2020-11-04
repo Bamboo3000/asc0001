@@ -14053,13 +14053,6 @@ body.compensate-for-scrollbar {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem; }
 
-.cardSectionMoreInfo4 {
-<<<<<<< HEAD
-  height: auto; }
-=======
-  min-height: 17vh; }
->>>>>>> 33a2c122f565564ecc696988b5a36f2209dd84b3
-
 .sectionMoreInfo4MarginTop {
   z-index: 1; }
 
