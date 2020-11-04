@@ -14053,6 +14053,9 @@ body.compensate-for-scrollbar {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem; }
 
+.cardSectionMoreInfo4 {
+  height: auto; }
+
 .sectionMoreInfo4MarginTop {
   z-index: 1; }
 
@@ -14064,6 +14067,3 @@ body.compensate-for-scrollbar {
 
 .sectionMenu {
   z-index: 12000; }
-
-.section6Card {
-  margin-bottom: 4.5rem; }
