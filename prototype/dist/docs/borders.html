@@ -469,40 +469,72 @@
       <div class="container-fluid">
 
         <!-- Brand -->
-        <a class="navbar-brand" >
+        <a class="navbar-brand" href="../index.html">
           <img src="../assets/img/logo.svg" class="navbar-brand-img" alt="...">
         </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
-            <ul class="navbar-nav  text-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#sectionMoreInfo1"> 1 sekcja<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sectionMoreInfo2">2 sekcja</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sectionMoreInfo3">3 sekcja</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#sectionMoreInfo4">4 sekcja</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#sectionMoreInfo5">5 sekcja</a>
-              </li>
-          
-            </ul>
-       
-          </div>
-          <a class="titlesAllSportCars navbar-btn btn btn-sm btn-danger" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
-          Inwestuj!
-        </a>
-      </div>
-  
-    </nav>
 
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item nav-link" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" >
+              <!-- List -->
+                          <a class="dropdown-item mb-5 mt-5"   data-toggle="smooth-scroll" href="../#SectionMoreInfo1" >
+                            Sekcja 1
+                          </a>
+         
+            </li>
+            <li class="nav-item nav-link" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
+              <!-- List -->
+
+                          <a class="dropdown-item mb-5 mt-5" data-toggle="smooth-scroll" href="../#SectionMoreInfo2">
+                            Sekcja 2
+                          </a>
+                     
+            </li>
+            <li class="nav-item nav-link " data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" >
+              <!-- List -->
+                          <a class="dropdown-item mb-5 mt-5" data-toggle="smooth-scroll" href="../#SectionMoreInfo3">
+                            Sekcja 3
+                          </a>
+          
+            </li>
+            <li class="nav-item nav-link " data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" >
+              <!-- List -->
+                          <a class="dropdown-item mb-5 mt-5" data-toggle="smooth-scroll" href="../#SectionMoreInfo4">
+                            Sekcja 4
+                          </a>
+          
+            </li>
+            <li class="nav-item nav-link " data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" >
+              <!-- List -->
+                          <a class="dropdown-item mb-5 mt-5" data-toggle="smooth-scroll" href="../#SectionMoreInfo5">
+                            Sekcja 5
+                          </a>
+          
+            </li>
+          </ul>
+
+          <!-- Button -->
+          <a class="navbar-btn btn btn-sm btn-danger lift ml-auto" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
+           INWESTUJ!
+          </a>
+
+        </div>
+
+      </div>
+    </nav>
 
 
     <!-- BREADCRUMB
