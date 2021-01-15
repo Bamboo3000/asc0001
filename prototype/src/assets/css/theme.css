@@ -14062,3 +14062,17 @@ body.compensate-for-scrollbar {
 
 .sectionMenu {
   z-index: 12000; }
+
+.shapeDownBeetwenSection2And3 {
+  top: -1px !important; }
+
+.shapeLeftPhotoSection3 {
+  left: -1px !important; }
+
+@media screen and (max-width: 767px) {
+  .SectionMoreInfo2 {
+    padding-top: 0rem !important; } }
+
+@media screen and (min-width: 768px) {
+  .SectionMoreInfo2 {
+    padding-top: 7rem !important; } }
